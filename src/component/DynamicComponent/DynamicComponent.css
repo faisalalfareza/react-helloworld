@@ -1,0 +1,25 @@
+.content-wrapper {
+    position: relative;
+    display: inline-block;
+    border: 2px solid gainsboro;
+    border-left: 3px solid grey;
+    padding: 8px;
+    margin: 2px;
+}
+.content-wrapper p {
+    margin: 2px;
+}
+.content-wrapper span.number {
+    position: absolute;
+    display: block;
+    background-color: gainsboro;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+.content-wrapper p span {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+}

@@ -7,13 +7,16 @@ import './index.css';
 import App from './App';
 import HelloComponentStateless from './component/HelloComponent-Stateless';
 import HelloComponentStatefull from './component/HelloComponent-Statefull';
+import DynamicComponent from './component/DynamicComponent/DynamicComponent';
+
+import Home from './container/Home';
 
 const HelloComponentNotArrow = () => {
   return <p>Hello from 'HelloComponentNotArrow' external 'stateless' component </p>
 }
 
 ReactDOM.render(
-  <HelloComponentStatefull />,
+  <Home />,
   document.getElementById('root')
 );
 
