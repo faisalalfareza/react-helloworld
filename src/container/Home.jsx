@@ -18,6 +18,7 @@ class Home extends React.Component {
                 <DynamicComponent name="Phil Jones" company="PT Electrical Data Interchange" job="Software Engineer: Web Front-end Designer Developer" />
             </div>
         </div>
+        
     }
 }
 
