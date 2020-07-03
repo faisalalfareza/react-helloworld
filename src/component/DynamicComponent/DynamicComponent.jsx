@@ -3,7 +3,7 @@ import './DynamicComponent.css';
 
 const DynamicComponent = (props) => {
     return <div className="content-wrapper">
-        <span className="number">1</span>
+        <span className="number">{props.id}</span>
         <p><span>Name</span>{props.name}</p>
         <p><span>Company</span>{props.company}</p>
         <p><span>Position/Job</span>{props.job}</p>

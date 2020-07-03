@@ -9,14 +9,15 @@ import HelloComponentStateless from './component/HelloComponent-Stateless';
 import HelloComponentStatefull from './component/HelloComponent-Statefull';
 import DynamicComponent from './component/DynamicComponent/DynamicComponent';
 
-import Home from './container/Home';
+import DynamicDataExample from './container/DynamicDataExample';
+import ParentUpdateByChildExample from './container/ParentUpdateByChildExample';
 
 const HelloComponentNotArrow = () => {
   return <p>Hello from 'HelloComponentNotArrow' external 'stateless' component </p>
 }
 
 ReactDOM.render(
-  <Home />,
+  <ParentUpdateByChildExample />,
   document.getElementById('root')
 );
 
